@@ -1,0 +1,9 @@
+@import "/edu/wpi/first/shuffleboard/app/midnight.css";
+
+.root {
+  -swatch-100: hsb(0, 80%, 98%);
+  -swatch-200: hsb(0, 80%, 88%);
+  -swatch-300: hsb(0, 80%, 78%);
+  -swatch-400: hsb(0, 80%, 68%);
+  -swatch-500: hsb(0, 80%, 58%);
+}

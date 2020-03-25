@@ -1,0 +1,19 @@
+PDB:
+	Limelight
+	PCM
+	
+	Drivetrain motor x4 (Neos w/ SmarkMax(LIMIT CURRENT!!!))
+	Intake motor (775 w/ VictorSPX over CAN)
+	Conveyor motor (775 w/ VictorSPX over CAN)
+	Flywheel motor (Falcon 500s w/ integrated TalonFX)
+	Turret motor (775 or Window Motor w/ TalonSRX & pot)
+	Shooter hood (/shrug)
+	Climber (Falcon 500 w/ integrated TalonFX)    --	move in either direction to extend/retract after unlocked
+	Spinner (TalonSRX   or   VictorSPX)
+
+PCM:
+	Intake toggle      --	Up/down
+	Spinner toggle     --	Stow/deploy
+	Ball stop toggle   --   Piston stops balls from entering the shooter
+	Climber lock	   --	Unlock climber extension (should be the energized state)
+	Climber toggle     --	Up/down

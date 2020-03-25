@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:id="root" alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/8"
+  xmlns:fx="http://javafx.com/fxml/1"
+  fx:controller="org.waltonrobotics.plugin.widget.ButtonMapWidget">
+  <children>
+    <ScrollPane fx:id="scrollPane" prefHeight="400.0" prefWidth="600.0">
+      <padding>
+        <Insets topRightBottomLeft="10"/>
+      </padding>
+
+    </ScrollPane>
+    <HBox alignment="CENTER" prefHeight="0.0" prefWidth="600.0" spacing="125.0">
+      <children>
+        <Button fx:id="applyButton" mnemonicParsing="false" onAction="#updateData" text="Apply"/>
+        <Button fx:id="resetButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false"
+          onAction="#restoreDefault" text="Restore Defaults"/>
+        <Button fx:id="randomizeButton" layoutX="66.0" layoutY="10.0" mnemonicParsing="false"
+          onAction="#randomize" text="Randomize"/>
+      </children>
+      <opaqueInsets>
+        <Insets/>
+      </opaqueInsets>
+    </HBox>
+  </children>
+</VBox>
